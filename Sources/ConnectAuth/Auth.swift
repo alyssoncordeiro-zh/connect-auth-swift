@@ -12,8 +12,8 @@ public class ConnectAuth: ObservableObject {
     @Published public var eventLog: [String] = []
 
     private init() {
-        addLog("🚀 Initialized ConnectAuth SDK v1.0.0")
-        print("[ConnectAuth] 🚀 Initialized ConnectAuth SDK v1.0.0")
+        addLog("🚀 Initialized ConnectAuth SDK v1.0.1")
+        print("[ConnectAuth] 🚀 Initialized ConnectAuth SDK v1.0.1")
     }
 
     private func addLog(_ message: String) {
@@ -93,7 +93,7 @@ public class ConnectAuth: ObservableObject {
 
     /// Get SDK version
     public func getVersion() -> String {
-        let version = "1.0.0"
+        let version = "1.0.1"
         addLog("ℹ️ ConnectAuth version: \(version)")
         return version
     }
